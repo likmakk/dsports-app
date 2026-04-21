@@ -1,0 +1,12 @@
+[
+  { "rank": 1, "name": "Casa Sports",     "points": 47, "played": 22, "won": 14, "drawn": 5, "lost": 3, "gd": 18, "color": "#CC0000", "status": "leader" },
+  { "rank": 2, "name": "Teungueth FC",    "points": 45, "played": 22, "won": 13, "drawn": 6, "lost": 3, "gd": 14, "color": "#1565c0" },
+  { "rank": 3, "name": "Génération Foot", "points": 42, "played": 22, "won": 12, "drawn": 6, "lost": 4, "gd": 11, "color": "#1b5e20" },
+  { "rank": 4, "name": "US Gorée",        "points": 38, "played": 22, "won": 11, "drawn": 5, "lost": 6, "gd":  7, "color": "#4a148c" },
+  { "rank": 5, "name": "Diambars",        "points": 35, "played": 22, "won": 10, "drawn": 5, "lost": 7, "gd":  5, "color": "#e65100", "status": "europe" },
+  { "rank": 6, "name": "Jaraaf",          "points": 33, "played": 22, "won":  9, "drawn": 6, "lost": 7, "gd":  2, "color": "#006064" },
+  { "rank": 7, "name": "AS Pikine",       "points": 30, "played": 22, "won":  8, "drawn": 6, "lost": 8, "gd": -1, "color": "#37474f" },
+  { "rank": 8, "name": "Diaraf",          "points": 28, "played": 22, "won":  7, "drawn": 7, "lost": 8, "gd": -3, "color": "#795548", "status": "relegation" },
+  { "rank": 9, "name": "Mbour PC",        "points": 24, "played": 22, "won":  6, "drawn": 6, "lost": 10,"gd": -8, "color": "#9e9e9e", "status": "relegation" },
+  { "rank":10, "name": "Keur Madior",     "points": 18, "played": 22, "won":  4, "drawn": 6, "lost": 12,"gd":-15, "color": "#bdbdbd", "status": "relegation" }
+]

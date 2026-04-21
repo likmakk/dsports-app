@@ -1,0 +1,53 @@
+[
+  {
+    "id": "resume-casa-teungueth-j22",
+    "title": "Résumé complet : Casa Sports 2-1 Teungueth FC — Les deux buts + analyse",
+    "duration": "8:42",
+    "publishedAt": "2026-04-13",
+    "views": 12400,
+    "imageGradient": "linear-gradient(135deg, #CC0000 0%, #7f0000 100%)",
+    "badge": "RÉSUMÉ",
+    "isFeatured": true
+  },
+  {
+    "id": "interview-ismailasarr-triplé",
+    "title": "Interview exclusive : Ismaïla Sarr après son triplé historique avec Crystal Palace",
+    "duration": "12:17",
+    "publishedAt": "2026-04-13",
+    "views": 8900,
+    "imageGradient": "linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%)"
+  },
+  {
+    "id": "conf-presse-aliou-cisse-can2026",
+    "title": "Conférence de presse : Aliou Cissé dévoile sa liste et ses intentions pour la CAN 2026",
+    "duration": "23:05",
+    "publishedAt": "2026-04-13",
+    "views": 6100,
+    "imageGradient": "linear-gradient(135deg, #1b5e20 0%, #33691e 100%)"
+  },
+  {
+    "id": "analyse-tactique-433-lions",
+    "title": "Analyse tactique : le nouveau 4-3-3 d'Aliou Cissé décrypté en 6 minutes",
+    "duration": "6:30",
+    "publishedAt": "2026-04-12",
+    "views": 4300,
+    "imageGradient": "linear-gradient(135deg, #4a148c 0%, #7b1fa2 100%)"
+  },
+  {
+    "id": "resume-lions-guinee-bissau",
+    "title": "Résumé : Sénégal 2-0 Guinée-Bissau — Les Lions en route vers la CAN",
+    "duration": "11:20",
+    "publishedAt": "2026-04-10",
+    "views": 21300,
+    "imageGradient": "linear-gradient(135deg, #CC0000 0%, #880e4f 100%)",
+    "badge": "RÉSUMÉ"
+  },
+  {
+    "id": "navetanes-dakar-presentation",
+    "title": "Navétanes Dakar 2026 : présentation des 64 équipes qualifiées pour les 32es",
+    "duration": "15:45",
+    "publishedAt": "2026-04-11",
+    "views": 3800,
+    "imageGradient": "linear-gradient(135deg, #1b5e20 0%, #33691e 100%)"
+  }
+]
