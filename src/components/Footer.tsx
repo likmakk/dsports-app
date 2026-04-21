@@ -37,9 +37,9 @@ const footerCols = [
 export default function Footer() {
   return (
     <footer className="bg-[#0a0a0a] text-white/70" role="contentinfo">
-      <div className="xl:max-w-[1240px] mx-auto px-4 md:px-5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-8 py-10 border-b border-white/10">
+      <div className="xl:max-w-[1240px] mx-auto px-4 md:px-5 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-8 py-10 border-b border-white/10">
         {/* Brand column */}
-        <div>
+        <div className="sm:col-span-3 lg:col-span-1">
           <Link href="/" className="flex items-center gap-3 mb-5" aria-label="DSports TV — Accueil">
             <div className="relative h-[48px] w-[48px] shrink-0 rounded-md overflow-hidden bg-white">
               <Image
@@ -101,9 +101,9 @@ export default function Footer() {
         ))}
       </div>
 
-      <div className="xl:max-w-[1240px] mx-auto px-4 md:px-5 py-4 flex items-center justify-between">
+      <div className="xl:max-w-[1240px] mx-auto px-4 md:px-5 py-4 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1">
         <p className="text-xs text-white/40">© 2026 DSports TV — Tous droits réservés. Dakar, Sénégal.</p>
-        <p className="text-xs text-white/40">Comprendre le sport sénégalais, au-delà du terrain.</p>
+        <p className="hidden sm:block text-xs text-white/40">Comprendre le sport sénégalais, au-delà du terrain.</p>
       </div>
     </footer>
   );

@@ -67,7 +67,7 @@ export default function HeroMosaic({ featured, secondary }: HeroMosaicProps) {
             <Link
               key={article.slug}
               href={`/article/${normalizeSlug(article.slug)}`}
-              className="relative block group overflow-hidden rounded-md aspect-[4/5]"
+              className="relative block group overflow-hidden rounded-md aspect-[3/2]"
             >
               {article.image ? (
                 <Image

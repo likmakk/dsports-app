@@ -14,7 +14,7 @@ export default function ArticleCardCorner({ article }: ArticleCardCornerProps) {
     <article className="group bg-white border border-gray-200 rounded-md overflow-hidden hover:shadow-md transition-shadow duration-200">
       <Link href={`/article/${normalizeSlug(article.slug)}`} className="flex">
         {/* Image */}
-        <div className="w-[200px] min-h-[140px] shrink-0 overflow-hidden relative">
+        <div className="w-[130px] sm:w-[180px] lg:w-[200px] h-[95px] sm:h-[130px] lg:min-h-[140px] shrink-0 overflow-hidden relative">
           {article.image ? (
             <Image
               src={article.image}
@@ -35,10 +35,10 @@ export default function ArticleCardCorner({ article }: ArticleCardCornerProps) {
         {/* Body */}
         <div className="p-5 flex-1 flex flex-col justify-between">
           <div>
-            <span className={`inline-block text-[10px] font-bold uppercase tracking-wider text-white ${catColor} px-2 py-0.5 rounded mb-3`}>
+            <span className={`inline-block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-white whitespace-nowrap ${catColor} px-2 py-0.5 rounded mb-3`}>
               {article.categoryLabel}
             </span>
-            <h3 className="text-[18px] font-black text-gray-900 leading-[1.3] mb-2.5 group-hover:text-[#CC0000] transition-colors duration-200">
+            <h3 className="text-[13px] sm:text-[15px] lg:text-[18px] font-black text-gray-900 leading-[1.3] mb-2.5 group-hover:text-[#CC0000] transition-colors duration-200">
               {article.title}
             </h3>
             <p className="text-[13px] text-gray-500 leading-relaxed line-clamp-3">

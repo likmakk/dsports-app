@@ -75,15 +75,15 @@ export default function HomePage() {
       <Header />
 
       {/* Scores bar */}
-      <div className="bg-gray-50 border-b border-gray-200 py-2" aria-label="Résultats du jour Ligue 1">
-        <div className="xl:max-w-[1240px] mx-auto px-4 md:px-5 flex items-center gap-4">
+      <div className="bg-gray-50 border-b border-gray-200 py-2 overflow-hidden" aria-label="Résultats du jour Ligue 1">
+        <div className="xl:max-w-[1240px] mx-auto px-4 md:px-5 flex items-center gap-4 min-w-0">
           <span className="text-[10px] font-black text-gray-500 uppercase tracking-wide shrink-0 pr-4 border-r-2 border-gray-200 flex items-center gap-1.5">
             <span className="w-2 h-2 rounded-full border-2 border-[#CC0000] flex items-center justify-center">
               <span className="w-1 h-1 rounded-full bg-[#CC0000]" />
             </span>
             Ligue 1 — J22
           </span>
-          <div className="flex items-center gap-2 overflow-x-auto scrollbar-none">
+          <div className="flex items-center gap-2 overflow-x-auto scrollbar-none min-w-0 flex-1">
             {scores.map((match, i) => (
               <a
                 key={i}
@@ -122,7 +122,7 @@ export default function HomePage() {
             <div className="flex flex-col gap-8 lg:gap-10">
 
               <SectionBlock title="Dernières Actualités" seeAllHref="/actualites">
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                   {latestNews.map((article) => (
                     <ArticleCardStandard key={article.slug} article={article} />
                   ))}
@@ -130,7 +130,7 @@ export default function HomePage() {
               </SectionBlock>
 
               <SectionBlock title="Foot Local" accentColor="#2e7d32" seeAllHref="/foot-local">
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                   {localNews.map((article) => (
                     <ArticleCardStandard key={article.slug} article={article} />
                   ))}
@@ -148,7 +148,7 @@ export default function HomePage() {
               )}
 
               <SectionBlock title="Équipes Nationales" accentColor="#CC0000" seeAllHref="/equipes-nationales">
-                <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                   {nationalNews.map((article) => {
                     const flag = nationalFlags[article.categoryLabel];
                     return (
@@ -247,7 +247,7 @@ export default function HomePage() {
                 Toutes les vidéos →
               </a>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-4">
               {featuredVideo && <VideoCard video={featuredVideo} featured />}
               {sideVideos.map((video) => (
                 <VideoCard key={video.id} video={video} />
@@ -266,7 +266,7 @@ export default function HomePage() {
               Recevez chaque matin l&apos;essentiel de l&apos;actu du football sénégalais directement dans votre boîte mail.
             </p>
           </div>
-          <form className="flex gap-2 w-full md:w-auto md:shrink-0" aria-label="Inscription à la newsletter">
+          <form className="flex flex-col sm:flex-row gap-2 w-full md:w-auto md:shrink-0" aria-label="Inscription à la newsletter">
             <input
               type="email"
               placeholder="Votre adresse e-mail"
@@ -274,7 +274,7 @@ export default function HomePage() {
               required
               aria-label="Adresse e-mail"
             />
-            <button type="submit" className="bg-[#CC0000] text-white font-bold px-5 md:px-6 py-3 rounded-md hover:bg-[#7f0000] transition-colors whitespace-nowrap">
+            <button type="submit" className="bg-[#CC0000] text-white font-bold px-5 md:px-6 py-3 rounded-md hover:bg-[#7f0000] transition-colors whitespace-nowrap w-full sm:w-auto">
               S&apos;abonner
             </button>
           </form>

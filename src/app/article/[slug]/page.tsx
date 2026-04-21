@@ -59,18 +59,18 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
 
       {/* Breadcrumb */}
       <div className="bg-gray-50 border-b border-gray-200 py-3">
-        <div className="max-w-[1240px] mx-auto px-5 flex items-center gap-2 text-xs text-gray-400">
-          <a href="/" className="hover:text-[#CC0000] transition-colors">Accueil</a>
-          <span>›</span>
-          <a href="/actualites" className="hover:text-[#CC0000] transition-colors capitalize">{article.categoryLabel}</a>
-          <span>›</span>
-          <span className="text-gray-700 font-medium line-clamp-1">{article.title}</span>
+        <div className="max-w-[1240px] mx-auto px-4 md:px-5 flex items-center gap-2 text-xs text-gray-400 overflow-hidden">
+          <a href="/" className="hover:text-[#CC0000] transition-colors whitespace-nowrap">Accueil</a>
+          <span className="shrink-0">›</span>
+          <a href="/actualites" className="hover:text-[#CC0000] transition-colors capitalize whitespace-nowrap">{article.categoryLabel}</a>
+          <span className="shrink-0">›</span>
+          <span className="text-gray-700 font-medium truncate">{article.title}</span>
         </div>
       </div>
 
       <main className="flex-1 py-8">
-        <div className="max-w-[1240px] mx-auto px-5">
-          <div className="grid grid-cols-[1fr_320px] gap-8 items-start">
+        <div className="max-w-[1240px] mx-auto px-4 md:px-5">
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-8 items-start">
 
             {/* Article column */}
             <article itemScope itemType="https://schema.org/NewsArticle">
@@ -90,7 +90,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 </div>
 
                 <h1
-                  className="text-4xl font-black text-gray-900 leading-tight mb-4"
+                  className="text-[22px] sm:text-[28px] lg:text-4xl font-black text-gray-900 leading-tight mb-4"
                   itemProp="headline"
                 >
                   {article.title}
@@ -120,7 +120,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                 </div>
 
                 {/* Share bar */}
-                <div className="flex items-center gap-2 mb-6">
+                <div className="flex flex-wrap items-center gap-2 mb-6">
                   <span className="text-xs font-bold text-gray-400 uppercase">Partager :</span>
                   {shareLinks.map(({ label, color, href }) => (
                     <a
@@ -128,7 +128,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
                       href={href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className={`${color} text-white text-xs font-bold px-3 py-1.5 rounded hover:opacity-90 transition-opacity`}
+                      className={`${color} text-white text-xs font-bold px-3 py-2 rounded hover:opacity-90 transition-opacity`}
                       aria-label={`Partager sur ${label}`}
                     >
                       {label}
@@ -199,7 +199,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
             </article>
 
             {/* Sidebar */}
-            <aside className="flex flex-col gap-6 sticky top-[80px]">
+            <aside className="hidden lg:flex flex-col gap-6 sticky top-[80px]">
               <LiveFeedSidebar items={feedItems} />
 
               {/* DSports TV mini widget */}
