@@ -7,7 +7,9 @@
     "views": 12400,
     "imageGradient": "linear-gradient(135deg, #CC0000 0%, #7f0000 100%)",
     "badge": "RÉSUMÉ",
-    "isFeatured": true
+    "isFeatured": true,
+    "youtubeId": "zActMRHI7E8",
+    "youtubeUrl": "https://www.youtube.com/watch?v=zActMRHI7E8"
   },
   {
     "id": "interview-ismailasarr-triplé",
@@ -15,7 +17,9 @@
     "duration": "12:17",
     "publishedAt": "2026-04-13",
     "views": 8900,
-    "imageGradient": "linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%)"
+    "imageGradient": "linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%)",
+    "youtubeId": "FEvVvt8w__4",
+    "youtubeUrl": "https://www.youtube.com/watch?v=FEvVvt8w__4"
   },
   {
     "id": "conf-presse-aliou-cisse-can2026",
@@ -23,7 +27,9 @@
     "duration": "23:05",
     "publishedAt": "2026-04-13",
     "views": 6100,
-    "imageGradient": "linear-gradient(135deg, #1b5e20 0%, #33691e 100%)"
+    "imageGradient": "linear-gradient(135deg, #1b5e20 0%, #33691e 100%)",
+    "youtubeId": "dpa1kkvNWhQ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=dpa1kkvNWhQ"
   },
   {
     "id": "analyse-tactique-433-lions",
@@ -31,7 +37,9 @@
     "duration": "6:30",
     "publishedAt": "2026-04-12",
     "views": 4300,
-    "imageGradient": "linear-gradient(135deg, #4a148c 0%, #7b1fa2 100%)"
+    "imageGradient": "linear-gradient(135deg, #4a148c 0%, #7b1fa2 100%)",
+    "youtubeId": "mCtqKCC6FOo",
+    "youtubeUrl": "https://www.youtube.com/watch?v=mCtqKCC6FOo"
   },
   {
     "id": "resume-lions-guinee-bissau",
@@ -40,7 +48,9 @@
     "publishedAt": "2026-04-10",
     "views": 21300,
     "imageGradient": "linear-gradient(135deg, #CC0000 0%, #880e4f 100%)",
-    "badge": "RÉSUMÉ"
+    "badge": "RÉSUMÉ",
+    "youtubeId": "__yPzJZXybQ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=__yPzJZXybQ"
   },
   {
     "id": "navetanes-dakar-presentation",
@@ -48,6 +58,8 @@
     "duration": "15:45",
     "publishedAt": "2026-04-11",
     "views": 3800,
-    "imageGradient": "linear-gradient(135deg, #1b5e20 0%, #33691e 100%)"
+    "imageGradient": "linear-gradient(135deg, #1b5e20 0%, #33691e 100%)",
+    "youtubeId": "__yPzJZXybQ",
+    "youtubeUrl": "https://www.youtube.com/watch?v=__yPzJZXybQ"
   }
 ]
