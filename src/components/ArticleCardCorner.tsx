@@ -41,9 +41,6 @@ export default function ArticleCardCorner({ article }: ArticleCardCornerProps) {
             <h3 className="text-[13px] sm:text-[15px] lg:text-[18px] font-black text-gray-900 leading-[1.3] mb-2.5 group-hover:text-[#CC0000] transition-colors duration-200">
               {article.title}
             </h3>
-            <p className="text-[13px] text-gray-500 leading-relaxed line-clamp-3">
-              {article.excerpt}
-            </p>
           </div>
           <div className="flex items-center gap-2 text-xs mt-3">
             <span className="font-bold text-gray-600">{article.author}</span>
