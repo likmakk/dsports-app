@@ -179,7 +179,7 @@
   },
   {
     "slug": "analyse-tactique-433-pape-thiaw",
-    "title": "Le 4-3-3 d'Pape Thiaw : analyse tactique d'un système qui a mené le Sénégal à la gloire continentale",
+    "title": "Le 4-3-3 de Pape Thiaw : analyse tactique d'un système qui a mené le Sénégal à la gloire continentale",
     "excerpt": "Depuis la CAN 2022, le bloc équipe nationale a progressivement adopté un pressing haut qui fait la marque de fabrique des Lions.",
     "category": "corner",
     "categoryLabel": "Corner — Analyses",
@@ -292,5 +292,22 @@
     "imageGradient": "linear-gradient(135deg, #880e4f 0%, #6a1040 100%)",
     "imageOrientation": "landscape",
     "tags": ["Lionnes", "CAN Féminine", "Équipe nationale"]
-  }
+  },
+  {
+  "slug": "bacary-cisse-portrait-dirigeant-football-senegalais",
+  "title": "Bacary Cissé, un dirigeant au service d’un football structuré et ambitieux",
+  "excerpt": "De son engagement local à Ziguinchor jusqu’à son rôle au sein du COMEX de la FSF...",
+  "content": "Dans un environnement où le football sénégalais cherche à consolider ses bases...\n\nBacary Cissé fait partie de ceux-là.\n\nDans un contexte où les attentes sont de plus en plus fortes, cette capacité à allier vision et exécution pourrait s’avérer déterminante pour les années à venir.",
+  "category": "portrait",
+  "categoryLabel": "Portraits",
+  "author": "Mbaye Sene",
+  "authorRole": "Contributeur DSports",
+  "publishedAt": "2026-04-21T09:00:00",
+  "timeAgo": "21 avril 2026",
+  "image": "/images/articles/bacary-cisse-portrait.jpeg",
+  "imageGradient": "linear-gradient(135deg, #1f2937 0%, #111827 100%)",
+  "imageOrientation": "landscape",
+  "tags": ["Portrait", "Football sénégalais", "Dirigeant"]
+}
+  
 ]

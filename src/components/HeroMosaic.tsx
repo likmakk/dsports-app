@@ -47,7 +47,7 @@ export default function HeroMosaic({ featured, secondary }: HeroMosaicProps) {
           )}
 
           <div className="absolute bottom-0 left-0 right-0 p-4">
-            <span className={`inline-block text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(featured.category)} px-2 py-0.5 rounded mb-2`}>
+            <span className={`inline-block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(featured.category)} px-1.5 sm:px-2 py-0.5 rounded mb-1 sm:mb-1.5 whitespace-normal`}>
               {featured.categoryLabel}
             </span>
             <h2 className="text-[21px] font-black text-white leading-[1.2] line-clamp-3 mb-2">
@@ -83,7 +83,7 @@ export default function HeroMosaic({ featured, secondary }: HeroMosaicProps) {
               )}
               <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-3">
-                <span className={`inline-block text-[9px] font-bold uppercase tracking-wider text-white ${getCategoryColor(article.category)} px-1.5 py-0.5 rounded mb-1.5`}>
+                <span className={`inline-block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(article.category)} px-1.5 sm:px-2 py-0.5 rounded mb-1 sm:mb-1.5 whitespace-normal`}>
                   {article.categoryLabel}
                 </span>
                 <h3 className="text-[13px] font-bold text-white leading-snug line-clamp-2">
@@ -128,7 +128,7 @@ export default function HeroMosaic({ featured, secondary }: HeroMosaicProps) {
           )}
 
           <div className="absolute bottom-0 left-0 right-0 p-5">
-            <span className={`inline-block text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(featured.category)} px-2 py-0.5 rounded mb-2`}>
+            <span className={`inline-block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(featured.category)} px-1.5 sm:px-2 py-0.5 rounded mb-1 sm:mb-1.5 whitespace-normal`}>
               {featured.categoryLabel}
             </span>
             <h2 className="text-[22px] font-black text-white leading-[1.2] line-clamp-3 mb-2 group-hover:text-gray-200 transition-colors duration-200">
@@ -168,7 +168,7 @@ export default function HeroMosaic({ featured, secondary }: HeroMosaicProps) {
             )}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-3">
-              <span className={`inline-block text-[9px] font-bold uppercase tracking-wider text-white ${getCategoryColor(article.category)} px-1.5 py-0.5 rounded mb-1`}>
+              <span className={`inline-block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(article.category)} px-1.5 sm:px-2 py-0.5 rounded mb-1 sm:mb-1.5 whitespace-normal`}>
                 {article.categoryLabel}
               </span>
               <h3 className="text-[13px] font-bold text-white leading-snug line-clamp-2 group-hover:text-gray-200 transition-colors">
@@ -212,7 +212,7 @@ export default function HeroMosaic({ featured, secondary }: HeroMosaicProps) {
           )}
 
           <div className="absolute bottom-0 left-0 right-0 p-5">
-            <span className={`inline-block text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(featured.category)} px-2 py-0.5 rounded mb-2.5`}>
+            <span className={`inline-block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(featured.category)} px-1.5 sm:px-2 py-0.5 rounded mb-1 sm:mb-1.5 whitespace-normal`}>
               {featured.categoryLabel}
             </span>
             <h2 className="text-[26px] font-black text-white leading-[1.15] line-clamp-3 mb-2.5 group-hover:text-gray-200 transition-colors duration-200">
@@ -252,7 +252,7 @@ export default function HeroMosaic({ featured, secondary }: HeroMosaicProps) {
             )}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-3.5">
-              <span className={`inline-block text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(article.category)} px-2 py-0.5 rounded mb-1.5`}>
+              <span className={`inline-block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(article.category)} px-1.5 sm:px-2 py-0.5 rounded mb-1 sm:mb-1.5 whitespace-normal`}>
                 {article.categoryLabel}
               </span>
               <h3 className="text-[14px] font-bold text-white leading-snug line-clamp-2 group-hover:text-gray-200 transition-colors duration-200">
