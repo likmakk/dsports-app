@@ -39,7 +39,7 @@ export default function ArticleCardStandard({ article }: ArticleCardStandardProp
         {/* Body — flex-1 so all cards fill grid row height; meta always at bottom */}
         <div className="p-3.5 flex-1 flex flex-col justify-between">
           <div>
-            <span className={`inline-block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-white whitespace-nowrap ${catColor} px-2 py-0.5 rounded mb-2.5`}>
+            <span className={`inline-block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-white px-1.5 py-0.5 rounded mb-2 whitespace-nowrap overflow-hidden text-ellipsis max-w-full ${catColor}`}>
               {article.categoryLabel}
             </span>
             <h3 className="text-[13px] sm:text-[15px] font-bold text-gray-900 leading-snug line-clamp-2 group-hover:text-[#CC0000] transition-colors duration-200">
