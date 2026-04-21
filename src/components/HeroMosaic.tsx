@@ -81,12 +81,12 @@ export default function HeroMosaic({ featured, secondary }: HeroMosaicProps) {
               ) : (
                 <div className="absolute inset-0" style={{ background: "linear-gradient(160deg, #1c1c1e 0%, #2a2a2a 100%)" }} />
               )}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent" />
-              <div className="absolute bottom-0 left-0 right-0 p-3">
-                <span className={`inline-block text-[9px] sm:text-[10px] font-bold uppercase tracking-wider text-white ${getCategoryColor(article.category)} px-1.5 sm:px-2 py-0.5 rounded mb-1 sm:mb-1.5 whitespace-normal`}>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/10 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-2">
+                <span className={`inline-block text-[8px] font-bold uppercase tracking-wider text-white ${getCategoryColor(article.category)} px-1 py-0.5 rounded mb-0.5 whitespace-normal`}>
                   {article.categoryLabel}
                 </span>
-                <h3 className="text-[13px] font-bold text-white leading-snug line-clamp-2">
+                <h3 className="text-[11px] font-bold text-white leading-snug line-clamp-1">
                   {article.title}
                 </h3>
               </div>
