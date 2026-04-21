@@ -4,7 +4,7 @@ import SectionBlock from "@/components/SectionBlock";
 import ArticleCardStandard from "@/components/ArticleCardStandard";
 import { getArticlesByCategory } from "@/lib/utils";
 
-const localArticles = getArticlesByCategory(["local", "ligue2"]);
+const localArticles = getArticlesByCategory("local");
 
 export const metadata = {
   title: "Foot Local — DSports TV",
