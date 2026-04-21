@@ -8,7 +8,7 @@ import articlesData from "@/data/articles.json";
 import standingsData from "@/data/standings.json";
 
 const articles = (articlesData as Article[]).filter(
-  (a) => a.category === "ligue1" || a.category === "ligue2"
+  (a) => a.category === "national" || a.category === "local"
 );
 const standings = standingsData as StandingRow[];
 
