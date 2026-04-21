@@ -35,7 +35,6 @@ export interface Video {
   publishedAt: string;
   views: number;
   imageGradient: string;
-  youtubeId?: string;
   badge?: string;
   isFeatured?: boolean;
   youtubeId?: string;
