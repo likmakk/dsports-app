@@ -38,6 +38,8 @@ export interface Video {
   youtubeId?: string;
   badge?: string;
   isFeatured?: boolean;
+  youtubeId?: string;
+  youtubeUrl?: string;
 }
 
 export interface FeedItem {
